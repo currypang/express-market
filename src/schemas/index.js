@@ -1,13 +1,11 @@
+import 'dotenv/config';
 import mongoose from 'mongoose';
 
 const connect = () => {
   mongoose
-    .connect(
-      'mongodb+srv://currypang:ddd5577@express-mongo.dbfwzbc.mongodb.net/?retryWrites=true&w=majority&appName=express-mongo',
-      {
-        dbName: 'ex_market',
-      }
-    )
+    .connect(process.env.MONGO_DB_KEY, {
+      dbName: 'ex_market',
+    })
     .then(() => console.log('MongoDB 연결 성공'))
     .catch((err) => console.log(`MongoDB 연결 실패 ${err}`));
 };
