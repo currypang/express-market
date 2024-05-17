@@ -8,7 +8,19 @@
 ## 2. API
 <details>
 <summary>Click</summary>  
+  * 도메인 주소: http://currypang.shop:3000  
   
+  * 상품 생성(C) - 
+    POST: /products
+  * 상품 목록 조회(R)- 
+    GET: /products
+  * 상품 상세 조회(R) - 
+    GET: /products/:id
+  * 상품 수정(U) - 
+    PATCH: /products/:id
+  * 상품 삭제(D) - 
+    DELETE: /products/:id
+    
 </details>
 
 ## 3-1. 필수 구현 사항
