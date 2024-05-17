@@ -90,7 +90,7 @@ router.get('/', async (req, res, next) => {
       return next('empty');
     }
     // 상품이 있으면 상품 목록을 응답
-    return res.status(201).json({
+    return res.status(200).json({
       status: 200,
       massage: '상품 목록 조회에 성공했습니다.',
       data: product,
@@ -113,7 +113,7 @@ router.get('/:productId', async (req, res, next) => {
       return next('notExist');
     }
     // 상품이 있으면 상세 데이터를 응답
-    return res.status(201).json({
+    return res.status(200).json({
       status: 200,
       message: '상품 상세 조회에 성공했습니다.',
       data: dbProduct,
