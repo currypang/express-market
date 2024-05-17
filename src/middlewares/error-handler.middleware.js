@@ -10,7 +10,7 @@ export default (err, req, res, next) => {
   }
   // 전체 목록 조회 시 상품이 없는 경우
   if (err === 'empty') {
-    return res.status(400).json({ data: [] });
+    return res.status(404).json({ data: [] });
   }
   // 상세 조회, 수정, 삭제 시 상품이 없는 경우
   if (err === 'notExist') {
