@@ -15,11 +15,11 @@
   * 상품 목록 조회(R)- 
     GET: /products
   * 상품 상세 조회(R) - 
-    GET: /products/:id
+    GET: /products/:productId
   * 상품 수정(U) - 
-    PATCH: /products/:id
+    PATCH: /products/:productId
   * 상품 삭제(D) - 
-    DELETE: /products/:id
+    DELETE: /products/:productId
     
 </details>
 
