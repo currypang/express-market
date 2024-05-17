@@ -5,23 +5,9 @@
 * Express.js를 기반으로 상품 데이터에 대한 CRUD기능이 포함된 백엔드 서버 구축합니다.
 * MongoDB를 이용해 DB를 구축하고, AWS를 통해 프로젝트를 배포합니다.
 
-## 2. API
-<details>
-<summary>Click</summary>  
-  * 도메인 주소: http://currypang.shop:3000  
-  
-  * 상품 생성(C) - 
-    POST: /products
-  * 상품 목록 조회(R)- 
-    GET: /products
-  * 상품 상세 조회(R) - 
-    GET: /products/:productId
-  * 상품 수정(U) - 
-    PATCH: /products/:productId
-  * 상품 삭제(D) - 
-    DELETE: /products/:productId
-    
-</details>
+## 2. API   
+
+https://app.gitbook.com/o/lI3zUyc6zkFnvD6ioCHv/s/vyGjGTwXVT3WnrpzWz1g/
 
 ## 3-1. 필수 구현 사항
 <details>
