@@ -7,7 +7,7 @@
 
 ## 2. API   
 
-https://app.gitbook.com/o/lI3zUyc6zkFnvD6ioCHv/s/vyGjGTwXVT3WnrpzWz1g/
+[https://app.gitbook.com/o/lI3zUyc6zkFnvD6ioCHv/s/vyGjGTwXVT3WnrpzWz1g/](https://romesway.gitbook.io/express-market-api/)
 
 ## 3-1. 필수 구현 사항
 <details>
